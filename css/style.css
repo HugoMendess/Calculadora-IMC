@@ -4,13 +4,19 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-image: url("../img/fundo.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 
 /*Criando estilo do content */
 .content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 200px;
+	margin-top: 170px;
 
 
 }
@@ -90,9 +96,9 @@ header{
 
 .content-div2{
 	background-color: tomato;
-	padding: 125px 40px;
+	padding: 125px 30px;
 	border-radius: 5px;
-	text-align: center;
+
 }
 
 .content-div2-titulo{
@@ -129,6 +135,18 @@ header{
 	display: inline;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
+}
+
+#content-campo-imc{
+	width: 80%;
+}
+
+#content-campo-classificao{
+	width: 78%;
+}
+
+#content-campo-obesidade{
+	width: 60%;
 }
 
 /*Criando estilo da div 2 - INICIO*/
