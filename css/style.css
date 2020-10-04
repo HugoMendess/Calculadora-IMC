@@ -20,7 +20,15 @@
 	background-color: tomato;
 	margin-right: 150px;
 	padding: 40px;
+	border-radius: 5px;
 
+}
+
+header{
+	margin-bottom: 30px;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
 }
 
 
