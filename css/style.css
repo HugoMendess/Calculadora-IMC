@@ -5,17 +5,28 @@
 }
 
 
-/*Criando estilo da div 1*/
+/*Criando estilo do content */
 .content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 200px;
+
+
+}
+
+/*Criando estilo da div 1*/
+.content-div1{
+	background-color: tomato;
+	margin-right: 150px;
+	padding: 40px;
+
 }
 
 
 
 
-
+/*Criando estilo da tabela*/
 .content-div2-tabela, th, td{
 	border: 1px solid black;
 }
