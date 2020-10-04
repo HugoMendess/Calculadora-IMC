@@ -89,14 +89,46 @@ header{
 /*Criando estilo da div 2 - INICIO*/
 
 .content-div2{
-
-}
-/*Criando estilo da tabela*/
-.content-div2-tabela, th, td{
-	border: 1px solid black;
-}
-
-tr{
+	background-color: tomato;
+	padding: 125px 40px;
+	border-radius: 5px;
 	text-align: center;
 }
+
+.content-div2-titulo{
+	margin-top: -60px;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+.content-div2-IMC{
+	margin: 50px 0px;
+}
+.content-div2-classificacao{
+	margin: 50px 0px;
+}
+
+.content-div2-obesidad{
+	margin: 50px 0px;
+}
+
+.content-div2-IMC h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+.content-div2-classificacao h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+.content-div2-obesidade h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
 /*Criando estilo da div 2 - INICIO*/
