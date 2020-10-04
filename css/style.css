@@ -19,7 +19,7 @@
 .content-div1{
 	background-color: tomato;
 	margin-right: 150px;
-	padding: 40px;
+	padding: 50px;
 	border-radius: 5px;
 
 }
@@ -41,6 +41,7 @@ header{
 	display: inline;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
+	margin-right: 12px;
 }
 
 .content-resultado h4{
@@ -50,19 +51,46 @@ header{
 }
 
 .content-altura{
-	margin: 25px 0px;
+	margin: 60px 0px;
 }
 
 .content-peso{
-	margin: 25px 0px;
+	margin: 60px 0px;
 }
 
 .content-resultado{
-	margin: 25px 0px;
+	margin: 60px 0px;
+}
+
+#content-altura-campo{
+	width: 65%;
+	border: none;
+	background-color: tomato;
+	border-bottom: 1px solid #fff;
+}
+
+#content-peso-campo{
+	width: 68%;
+	border: none;
+	background-color: tomato;
+	border-bottom: 1px solid #fff;
+}
+
+#content-resultado-campo{
+	width: 53%;
+	border: none;
+	background: tomato;
+	border-bottom: 1px solid #fff;
 }
 
 /*Criando estilo da div 1 - FIM */
 
+
+/*Criando estilo da div 2 - INICIO*/
+
+.content-div2{
+
+}
 /*Criando estilo da tabela*/
 .content-div2-tabela, th, td{
 	border: 1px solid black;
@@ -71,3 +99,4 @@ header{
 tr{
 	text-align: center;
 }
+/*Criando estilo da div 2 - INICIO*/
