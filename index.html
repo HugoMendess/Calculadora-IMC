@@ -7,29 +7,66 @@
 		<meta charset="utf-8">
 		<meta name="author" content="Hugo Mendes">
 		<title>Calculadora IMC</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/main.js"></script>
 
 	</head>
 
 	<body>
 
-		<header>
-			<h2>CALCULADORA IMC</h2>
-		</header>
+	<div class="content">
+		
+	
+			<dir class="content-div1">
 
-		<main>
-			
-			<div class="content-altura">
-				<h4>Altura:</h4>
-				<input type="text" id="content-altura-campo">
+				<header>
+					<h2>CALCULADORA IMC</h2>
+				</header>
+
+				<main>
+					
+					<div class="content-altura">
+						<h4>Altura:</h4>
+						<input type="text" id="content-altura-campo">
+					</div>
+
+					<div class="content-peso">
+						<h4>Peso:</h4>
+						<input type="text" id="content-peso-campo">
+					</div>
+
+					<div class="content-resultado">
+						<h4>Resultado:</h4>
+						<input type="text" id="content-resultado-campo">
+					</div>
+
+				</main>
+
+			</dir>
+
+			<div class="content-div2">
+
+				<div class="content-div2-titulo">
+					 <h4>Veja as interpretações dos resultados</h4>
+				</div>
+
+				<table class="content-div2-tabela">
+
+					<tr>
+						<th>IMC</th>
+						<th>Classificação</th>
+						<th>Obesidade(Grau)</th>
+					</tr>
+
+					<tr>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+				</table>
+
 			</div>
-
-			<div class="content-peso">
-				<h4>Peso:</h4>
-				<input type="text" id="content-peso-campo">
-			</div>
-
-		</main>
-
+	</div>
 
 	</body>
 
