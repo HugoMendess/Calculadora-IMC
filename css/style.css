@@ -15,7 +15,7 @@
 
 }
 
-/*Criando estilo da div 1*/
+/*Criando estilo da div 1 - INICIO*/
 .content-div1{
 	background-color: tomato;
 	margin-right: 150px;
@@ -31,8 +31,37 @@ header{
 	font-weight: bold;
 }
 
+.content-altura h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
 
+.content-peso h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
 
+.content-resultado h4{
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+.content-altura{
+	margin: 25px 0px;
+}
+
+.content-peso{
+	margin: 25px 0px;
+}
+
+.content-resultado{
+	margin: 25px 0px;
+}
+
+/*Criando estilo da div 1 - FIM */
 
 /*Criando estilo da tabela*/
 .content-div2-tabela, th, td{
