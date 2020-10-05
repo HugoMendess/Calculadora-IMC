@@ -43,31 +43,44 @@ function SetValue(alt, pes){
 		
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
 		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
-
+		document.getElementById("content-campo-classificao").value = 'Magreza';
+		document.getElementById("content-campo-obesidade").value = 'Grau 0';
 		
 	}
 
 	else if (resultado >= 18.5 && resultado <= 24.9) {
 		
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
+		document.getElementById("content-campo-classificao").value = 'Normal';
+		document.getElementById("content-campo-obesidade").value = 'Grau 0';
 	
 	}
 
 	else if(resultado >= 25 && resultado <= 29.9){
 	
-		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);	
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
+		document.getElementById("content-campo-classificao").value = 'Sobrepeso';
+		document.getElementById("content-campo-obesidade").value = 'Grau 1';
 	
 	}
 
 	else if(resultado >= 30 && resultado <= 39.9){
 
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
+		document.getElementById("content-campo-classificao").value = 'Obesidade';
+		document.getElementById("content-campo-obesidade").value = 'Grau 2';
 
 	}
 
 	else if(resultado >= 40){
 	
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
+		document.getElementById("content-campo-classificao").value = 'Obesidade Grave';
+		document.getElementById("content-campo-obesidade").value = 'Grau 3';
 
 	}
 
