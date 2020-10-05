@@ -40,28 +40,35 @@ function SetValue(alt, pes){
 	console.log("Resultado:"+ resultado);
 
 	if(resultado < 18.5){
-		document.getElementById("content-resultado-campo").value = resultado;
-		alert(resultado)
+		
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
+
+		
 	}
 
 	else if (resultado >= 18.5 && resultado <= 24.9) {
-		document.getElementById("content-resultado-campo").innerHTML = resultado.ToString(2);
-		alert(resultado)
+		
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+	
 	}
 
 	else if(resultado >= 25 && resultado <= 29.9){
-		document.getElementById("content-resultado-campo").innerHTML = resultado;
-		alert(resultado)
+	
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);	
+	
 	}
 
 	else if(resultado >= 30 && resultado <= 39.9){
-		document.getElementById("content-resultado-campo").innerHTML = resultado;
-		alert(resultado)
+
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+
 	}
 
 	else if(resultado >= 40){
-		document.getElementById("content-resultado-campo").innerHTML = resultado;
-		alert(resultado)
+	
+		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
+
 	}
 
 
