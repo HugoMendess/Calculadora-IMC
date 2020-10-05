@@ -2,7 +2,7 @@
 #### Projeto pessoal Calculadora IMC, feito com objetivo de praticar os conceitos de Javascript e CSS.
 
 #### A calculadora recebe os valores de altura e peso de uma pessoa e realiza algumas verificações, como a verificação dos caracteres para decidir se há letras ou apenas números digitas, e a verificação dos espaços vazios. Após as verificações, o algoritmo realiza a operação e retorna os dados na tela.
-![Imagem do projeto final](https://github.com/HugoMendess/App-Calculadora/blob/master/Gif_projetoFinal.gif)
+![Imagem do projeto final](https://github.com/HugoMendess/Calculadora-IMC/blob/master/img/Resultado-Calculadora-IMC.gif)
 
 ## Começando
 ##### Esse arquivo fará com que você tenha uma cópia deste projeto para fins de estudo e teste.
