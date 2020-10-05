@@ -7,7 +7,7 @@
 body{
 	background-image: url("../img/fundo.jpg");
 	background-position: center;
-	background-size: cover;
+	
 }
 
 
@@ -123,6 +123,7 @@ header{
 	display: inline;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
+	font-weight: bold;
 }
 
 .content-div2-classificacao h4{
@@ -139,14 +140,38 @@ header{
 
 #content-campo-imc{
 	width: 80%;
+	border: none;
+	background-color: tomato;
+	border-bottom: 1px solid #fff;
 }
 
 #content-campo-classificao{
 	width: 78%;
+	border: none;
+	background-color: tomato;
+	border-bottom: 1px solid #fff;
 }
 
 #content-campo-obesidade{
 	width: 60%;
+	border: none;
+	background-color: tomato;
+	border-bottom: 1px solid #fff;
 }
 
-/*Criando estilo da div 2 - INICIO*/
+/*Estilizando botão*/
+.botao{
+	text-align: center;
+}
+
+#button{
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: MediumSeaGreen;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*Criando estilo da div 2 - FIM*/
