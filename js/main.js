@@ -49,7 +49,7 @@ function SetValue(alt, pes){
 		
 	}
 
-	else if (resultado >= 18.5 && resultado <= 24.9) {
+	else if (resultado >= 18.5 && resultado < 25) {
 		
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
 		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
@@ -58,7 +58,7 @@ function SetValue(alt, pes){
 	
 	}
 
-	else if(resultado >= 25 && resultado <= 29.9){
+	else if(resultado >= 25 && resultado < 30){
 	
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
 		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
@@ -67,7 +67,7 @@ function SetValue(alt, pes){
 	
 	}
 
-	else if(resultado >= 30 && resultado <= 39.9){
+	else if(resultado >= 30 && resultado < 40){
 
 		document.getElementById("content-resultado-campo").value = resultado.toFixed(2);
 		document.getElementById("content-campo-imc").value = resultado.toFixed(2);
@@ -99,3 +99,4 @@ function Clear(){
 		document.getElementById("content-resultado-campo").value = '';
 		document.getElementById("content-campo-obesidade").value = '';	
 }
+

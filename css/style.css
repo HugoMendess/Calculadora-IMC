@@ -143,12 +143,14 @@ header{
 .content-div2-classificacao h4{
 	display: inline;
 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
 	color: #fff;
 }
 
 .content-div2-obesidade h4{
 	display: inline;
 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
 	color: #fff;
 }
 
@@ -208,5 +210,6 @@ header{
 	cursor: pointer;
 	margin-left: 5px;
 }
+
 
 /*Criando estilo da div 2 - FIM*/
