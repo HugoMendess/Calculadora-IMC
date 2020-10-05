@@ -40,12 +40,12 @@ function SetValue(alt, pes){
 	console.log("Resultado:"+ resultado);
 
 	if(resultado < 18.5){
-		document.getElementById("content-resultado-campo").innerHTML = resultado;
+		document.getElementById("content-resultado-campo").value = resultado;
 		alert(resultado)
 	}
 
 	else if (resultado >= 18.5 && resultado <= 24.9) {
-		document.getElementById("content-resultado-campo").innerHTML = resultado;
+		document.getElementById("content-resultado-campo").innerHTML = resultado.ToString(2);
 		alert(resultado)
 	}
 
