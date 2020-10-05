@@ -197,4 +197,16 @@ header{
 	cursor: pointer;
 }
 
+
+#button2{
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: MediumSeaGreen;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
 /*Criando estilo da div 2 - FIM*/

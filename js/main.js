@@ -1,14 +1,14 @@
 // formula = peso/altura*altura
 
 
-
-  function isNumber(value) {
+//Função que verifica se os caracteres digitados são números ou se possui ponto, ao invés de virgula.	
+ function isNumber(value) {
 
         return /^\d+(?:\.\d+)?$/.test(value);
 
    };
 
-
+//Função para pegar os valores dos campos input
 function getValue(){
  	var altura = document.getElementById('content-altura-campo').value;	
  	var peso = document.getElementById('content-peso-campo').value;
@@ -33,6 +33,7 @@ function getValue(){
  	}
 }
 
+// Função para setar os valores nos inputs da tela
 function SetValue(alt, pes){
 	var a = alt * alt;
 	var resultado = pes/a;
@@ -84,6 +85,17 @@ function SetValue(alt, pes){
 
 	}
 
+}
 
+//Função para limpar os campos
+function Clear(){
+		
+		document.getElementById("content-campo-imc").value = '';
+		document.getElementById("content-campo-classificao").value = '';
+		document.getElementById("content-campo-obesidade").value = '';
 
+		document.getElementById("content-altura-campo").value = '';
+		document.getElementById("content-peso-campo").value = '';
+		document.getElementById("content-resultado-campo").value = '';
+		document.getElementById("content-campo-obesidade").value = '';	
 }
